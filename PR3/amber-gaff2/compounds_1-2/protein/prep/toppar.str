@@ -1,0 +1,13 @@
+* AMBER topology and parameters
+*
+
+read rtf card name prep/toppar/parm14sb_all_ash.rtf
+read param card flex name prep/toppar/parm14sb_all.prm
+
+read rtf card name prep/mol46_ld.rtf append
+read param card flex name prep/mol46_ld.prm append
+
+read rtf card name prep/mol22_ld.rtf append
+read param card flex name prep/mol22_ld.prm append
+
+

@@ -1,0 +1,132 @@
+* Force Field Parameter File.
+* 
+
+BONDS
+_CXB _NXB  356.20   1.379
+_C2XB _NXB  330.20   1.399
+_CAXB _NXB  315.20   1.412
+_CXB _OXB  652.60   1.218
+_C3XB _NXB  263.80   1.462
+_C3XB _H1XB  375.90   1.097
+_C3XB _CEXB  250.10   1.516
+_C3XB _CAXB  250.30   1.516
+_C2XB _CEXB  460.50   1.346
+_CEXB _CGXB  341.20   1.427
+_C2XB _C3XB  255.60   1.510
+_C3XB _HCXB  375.90   1.097
+_CAXB _CAXB  378.60   1.398
+_CAXB _HAXB  395.70   1.086
+_C3XB _FXB  352.60   1.350
+_CAXB _SYXB  209.80   1.791
+_CAXB _CGXB  334.10   1.433
+_C3XB _SYXB  199.40   1.809
+_OXB _SYXB  653.20   1.466
+_CGXB _N1XB  879.30   1.157
+
+ANGLES
+_NXB _CXB _OXB  113.800     123.050
+_NXB _CXB _NXB  112.400     113.560
+_NXB _C2XB _CEXB   87.800     120.710
+_NXB _C2XB _C3XB   84.400     114.800
+_NXB _CAXB _CAXB   85.600     120.190
+_CXB _NXB _C2XB   66.400     122.150
+_CXB _NXB _CAXB   65.700     123.710
+_CXB _NXB _C3XB   65.300     120.690
+_NXB _C3XB _H1XB   61.500     108.880
+_NXB _C3XB _CEXB   84.300     110.220
+_NXB _C3XB _CAXB   83.500     112.380
+_C3XB _NXB _C3XB   64.900     115.640
+_C3XB _CEXB _C2XB   66.000     122.530
+_C3XB _CEXB _CGXB   66.000     117.220
+_C3XB _CAXB _CAXB   65.600     120.770
+_CEXB _C3XB _CAXB   65.600     112.210
+_CEXB _C3XB _H1XB   47.500     109.540
+_CEXB _C2XB _C3XB   66.100     123.150
+_CEXB _CGXB _N1XB   74.900     177.970
+_C2XB _NXB _CAXB   67.200     116.540
+_C2XB _CEXB _CGXB   68.600     122.090
+_C2XB _C3XB _HCXB   47.500     110.360
+_CAXB _CAXB _CAXB   68.800     120.020
+_CAXB _CAXB _HAXB   48.700     119.880
+_CAXB _C3XB _FXB   87.800     111.770
+_FXB _C3XB _FXB  121.600     107.360
+_CAXB _C3XB _H1XB   47.500     109.560
+_CAXB _CAXB _SYXB   63.400     119.420
+_CAXB _SYXB _C3XB   70.900     103.930
+_CAXB _SYXB _OXB   94.300     108.350
+_CAXB _CAXB _CGXB   67.800     120.270
+_CAXB _CGXB _N1XB   74.300     179.490
+_SYXB _C3XB _H1XB   43.400     107.880
+_C3XB _SYXB _OXB   93.800     107.850
+_OXB _SYXB _OXB  126.400     121.410
+_H1XB _C3XB _H1XB   38.800     108.460
+_HCXB _C3XB _HCXB   39.000     107.580
+
+DIHEDRALS
+_OXB  _CXB  _NXB  _C2XB     2.500         2     180.0
+_OXB  _CXB  _NXB  _CAXB     2.500         2     180.0
+_NXB  _CXB  _NXB  _C2XB     2.500         2     180.0
+_NXB  _CXB  _NXB  _CAXB     2.500         2     180.0
+_CEXB _C2XB _NXB  _CXB      0.650         2     180.0
+_CEXB _C2XB _NXB  _CAXB     0.650         2     180.0
+_C3XB _C2XB _NXB  _CXB      1.510         1     180.0
+_C3XB _C2XB _NXB  _CAXB     0.650         2     180.0
+_CAXB _CAXB _NXB  _CXB      0.950         2     180.0
+_CAXB _CAXB _NXB  _C2XB     0.450         2     180.0
+_NXB  _CXB  _NXB  _C3XB     2.500         2     180.0
+_OXB  _CXB  _NXB  _C3XB     2.500         2     180.0
+_H1XB _C3XB _NXB  _CXB      0.000         2     180.0
+_H1XB _C3XB _NXB  _C3XB     0.000         2       0.0
+_CEXB _C3XB _NXB  _CXB      0.000         2       0.0
+_CEXB _C3XB _NXB  _C3XB     0.000         2       0.0
+_CAXB _C3XB _NXB  _CXB      0.000         2       0.0
+_CAXB _C3XB _NXB  _C3XB     0.000         2       0.0
+_NXB  _C3XB _CEXB _C2XB     0.000         3       0.0
+_CAXB _C3XB _CEXB _C2XB     0.112         2       0.0
+_H1XB _C3XB _CEXB _C2XB     0.360         3     180.0
+_H1XB _C3XB _CEXB _C2XB     1.470         1       0.0
+_NXB  _C3XB _CEXB _CGXB     0.000         3       0.0
+_CAXB _C3XB _CEXB _CGXB     0.000         3       0.0
+_H1XB _C3XB _CEXB _CGXB     0.000         3       0.0
+_NXB  _C3XB _CAXB _CAXB     0.000         2       0.0
+_CEXB _C3XB _CAXB _CAXB     0.000         2       0.0
+_H1XB _C3XB _CAXB _CAXB     0.000         2       0.0
+_NXB  _C2XB _CEXB _C3XB     6.650         2     180.0
+_NXB  _C2XB _CEXB _CGXB     6.650         2     180.0
+_C3XB _C2XB _CEXB _C3XB     6.650         2     180.0
+_C3XB _C2XB _CEXB _CGXB     6.650         2     180.0
+_C3XB _CEXB _CGXB _N1XB     0.000         2     180.0
+_C2XB _CEXB _CGXB _N1XB     0.000         2     180.0
+_NXB  _C2XB _C3XB _HCXB     0.000         2       0.0
+_CEXB _C2XB _C3XB _HCXB     0.000         2       0.0
+_CAXB _CAXB _CAXB _NXB      3.625         2     180.0
+_CAXB _CAXB _CAXB _CAXB     3.625         2     180.0
+_HAXB _CAXB _CAXB _NXB      3.625         2     180.0
+_CAXB _CAXB _CAXB _HAXB     3.625         2     180.0
+_C3XB _CAXB _CAXB _CAXB     3.625         2     180.0
+_C3XB _CAXB _CAXB _HAXB     3.625         2     180.0
+_FXB  _C3XB _CAXB _CAXB     0.000         2       0.0
+_HAXB _CAXB _CAXB _HAXB     3.625         2     180.0
+_C3XB _CAXB _CAXB _SYXB     3.625         2     180.0
+_CAXB _CAXB _CAXB _SYXB     3.625         2     180.0
+_HAXB _CAXB _CAXB _SYXB     3.625         2     180.0
+_CAXB _CAXB _SYXB _C3XB     1.220         2     180.0
+_CAXB _CAXB _SYXB _OXB      1.300         2     180.0
+_CAXB _CAXB _CAXB _CGXB     3.625         2     180.0
+_CGXB _CAXB _CAXB _HAXB     3.625         2     180.0
+_CAXB _CAXB _CGXB _N1XB     0.000         2     180.0
+_H1XB _C3XB _SYXB _CAXB     0.144         3       0.0
+_H1XB _C3XB _SYXB _OXB      0.144         3       0.0
+
+IMPROPER
+_CXB  _C2XB _NXB  _CAXB     1.100         2     180.0
+_NXB  _NXB  _CXB  _OXB     10.500         2     180.0
+_CXB  _C3XB _NXB  _C3XB     1.100         2     180.0
+_C2XB _C3XB _CEXB _CGXB     1.100         2     180.0
+_C3XB _CEXB _C2XB _NXB      1.100         2     180.0
+_CAXB _CAXB _CAXB _NXB      1.100         2     180.0
+_CAXB _CAXB _CAXB _HAXB     1.100         2     180.0
+_C3XB _CAXB _CAXB _CAXB     1.100         2     180.0
+_CAXB _CAXB _CAXB _SYXB     1.100         2     180.0
+_CAXB _CAXB _CAXB _CGXB     1.100         2     180.0
+
