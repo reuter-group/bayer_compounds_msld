@@ -1,6 +1,7 @@
 # Bayer_compounds_msld
 Following is the directory structure.
-```HNE directory:
+```
+HNE directory:
     amber-gaff2:
           antechamber: ligands mol2, rtf and prm files (original FF charges)
           compound_1-2:   protein - MSLD prep and run files for the complex side (ligands - renormlaized charges)
