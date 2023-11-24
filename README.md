@@ -1,4 +1,4 @@
-Bayer_compounds_msld
+# Bayer_compounds_msld
 Following is the directory structure.
 ```
 HNE directory:
@@ -34,7 +34,7 @@ HNE directory:
 
     FF - force field
 
-Compounds numbering:
+# Compounds numbering:
 | Publication |  RawData |
 | ----------  | --------   |
 | 1  | 22 |
