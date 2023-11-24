@@ -1,7 +1,6 @@
 # Bayer_compounds_msld
 Following is the directory structure.
-```
-HNE directory:
+```HNE directory:
     amber-gaff2:
           antechamber: ligands mol2, rtf and prm files (original FF charges)
           compound_1-2:   protein - MSLD prep and run files for the complex side (ligands - renormlaized charges)
@@ -28,12 +27,9 @@ HNE directory:
                           water - MSLD prep and run files for the water side (ligands - renormalized charges)
           compound_2-10:  protein - MSLD prep and run files for the complex side (ligands - renormlaized charges)
           compounds_2-11: protein - MSLD prep and run files for the complex side (ligands - renormlaized charges)
-                          water - MSLD prep and run files for the water side (ligands - renormalized charges)
-    
-    ```
+                          water - MSLD prep and run files for the water side (ligands - renormalized charges)```
 
-    FF - force field
-
+>    FF - force field
 ### Compounds numbering:
 | Publication |  RawData |
 | ----------  | --------   |
