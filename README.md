@@ -66,7 +66,10 @@ PR3 directory:
                           water - used result from corresponding **HNE** calculations
                           
 
-Charge_correction: CHARMM input files for book-ending correction, MBAR analysis scripts
+Charge_correction: CHARMM input files for book-ending correction, MBAR analysis scripts.
+                   see also - (https://github.com/Vilseck-Lab/msld-py-prep/tree/main/bookending_corrections)
+
+run_files: CHARMM scripts, bash scripts, ALF scripts for running MSLD simulations.
 
 >    FF - force field
 
