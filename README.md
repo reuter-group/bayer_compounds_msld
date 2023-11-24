@@ -33,8 +33,8 @@ HNE directory:
     ```
     FF - force field
 
->Compounds numbering:
->Publication |  RawData
+**Compounds numbering:**
+Publication |  RawData
 ----------  | --------
 1  | 22
 2  | 46
