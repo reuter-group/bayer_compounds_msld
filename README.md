@@ -69,7 +69,7 @@ PR3 directory:
 Charge renormalization was performed using [msld_py_prep](https://github.com/Vilseck-Lab/msld-py-prep).
 
 Charge_correction: CHARMM input files for book-ending correction, MBAR analysis scripts.
-                   see also - <https://github.com/Vilseck-Lab/msld-py-prep/tree/main/bookending_corrections>
+                   see also - [msld_py_prep](https://github.com/Vilseck-Lab/msld-py-prep/tree/main/bookending_corrections)
 
 run_files: CHARMM, ALF, and bash scripts for running MSLD simulations.
 
