@@ -1,0 +1,40 @@
+#!/usr/bin/bash
+
+# Load CHARMM executable.
+CHARMMEXEC=/net/orinoco/pga043/CHARMM_47a2/charmm_47a2/build_amber/charmm
+
+#======================================================
+
+# Get ith combination from combinations.txt
+#END=`wc -l combinations.txt | awk '{print $1}'`
+#for((i=1;i<=END;i++))
+for i in 10
+do
+comb=`sed "${i}q;d" combinations.txt`
+comb=($comb)
+
+# Define substituents for each site
+sub1=${comb[0]}
+
+echo "$sub1"
+
+echo "CHARMM executable is ${CHARMMEXEC}"
+echo "ligand combination is ${comb}"
+echo "dtype is ${dtype}"
+
+if [ ! -d "dynamics-s1s${sub1}" ]
+then
+    mkdir dynamics-s1s${sub1}
+fi
+
+if [ ! -d "dynamics-s1s${sub1}/${dtype}" ]
+then
+    mkdir dynamics-s1s${sub1}/${dtype}
+fi
+
+
+# Run dynamics
+mpirun -np 1 -x OMP_NUM_THREADS=10 --bind-to none --map-by node $CHARMMEXEC sub1=$sub1 dtype=${dtype} nbond=${nbond} seed=$RANDOM -i domdec_${dtype}.inp -o ${dtype}_dyn-s1s${sub1}.out
+
+done
+

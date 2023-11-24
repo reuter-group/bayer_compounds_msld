@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#cp /net/orinoco/pga043/MSLD/bayer-7/amber/ligands_prep/build.bayer/* .
+
+bash print_combo_ligs.sh
+
+#cd comboligs
+#./README
+
+
