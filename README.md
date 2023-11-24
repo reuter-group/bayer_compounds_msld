@@ -34,7 +34,7 @@ HNE directory:
 
     FF - force field
 
-# Compounds numbering:
+### Compounds numbering:
 | Publication |  RawData |
 | ----------  | --------   |
 | 1  | 22 |
