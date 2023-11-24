@@ -66,8 +66,10 @@ PR3 directory:
                           water - used result from corresponding **HNE** calculations
                           
 
+Charge_correction: CHARMM input files for book-ending correction, MBAR analysis scripts
 
 >    FF - force field
+
 Compounds numbering:
 -------------------
 | Publication |  RawData |
