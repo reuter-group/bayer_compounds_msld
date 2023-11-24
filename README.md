@@ -32,18 +32,18 @@ HNE directory:
     ```
     FF - force field
 
-    **Compounds numbering:**
-    Publication |  RawData
-    ----------  | --------
-    1 | 22
-    2 | 46
-    3 | 48
-    4 | 49
-    5 | 50
-    6 | 51
-    7 | 53
-    8 | 54
-    9 | 55
-    10 | 56
-    11 | 58
+Compounds numbering:
+Publication |  RawData
+----------  | --------
+1  | 22
+2  | 46
+3  | 48
+4  | 49
+5  | 50
+6  | 51
+7  | 53
+8  | 54
+9  | 55
+10 | 56
+11 | 58
 
