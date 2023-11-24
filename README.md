@@ -1,4 +1,5 @@
 # bayer_compounds_msld
+Following is the directory structure.
 ```
 HNE directory:
     amber-gaff2:
@@ -32,8 +33,8 @@ HNE directory:
     ```
     FF - force field
 
-Compounds numbering:
-Publication |  RawData
+>Compounds numbering:
+>Publication |  RawData
 ----------  | --------
 1  | 22
 2  | 46
