@@ -70,6 +70,9 @@ PR3 directory:
 ```                          
 Charge renormalization was performed using [msld_py_prep](https://github.com/Vilseck-Lab/msld-py-prep).
 
+> FF - Force Field \
+> ALF - Adaptive Landscape Flattening
+
 Charge_correction:
 ------------------
 1. HNE: CHARMM stream files containing original FF charges and renormalized charges (following charge renormalization).
@@ -83,8 +86,6 @@ run_files:
 ----------
 CHARMM, ALF, and bash scripts for running MSLD simulations.
 
-> FF - Force Field
-> ALF - Adaptive Landscape Flattening
 
 Compounds numbering:
 -------------------
