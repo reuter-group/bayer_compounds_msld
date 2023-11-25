@@ -1,5 +1,5 @@
 # Bayer_compounds_msld
-Following is the directory structure.
+The following is the directory structure.
 ```
 HNE directory:
     amber-gaff2:
@@ -85,7 +85,6 @@ CHARMM input files for book-ending correction, MBAR analysis scripts.
 run_files:
 ----------
 CHARMM, ALF, and bash scripts for running MSLD simulations.
-
 
 Compounds numbering:
 -------------------
