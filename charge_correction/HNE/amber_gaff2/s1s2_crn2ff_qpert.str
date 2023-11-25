@@ -1,0 +1,50 @@
+* Change atom charges to original ff charges for ligand s1s2
+*
+
+scalar charge set -0.857420 sele atom LIG 1 N001 end
+scalar charge set 0.214270 sele atom LIG 1 C002 end
+scalar charge set -0.122430 sele atom LIG 1 C003 end
+scalar charge set 0.198970 sele atom LIG 1 C004 end
+scalar charge set 0.096700 sele atom LIG 1 H005 end
+scalar charge set -0.041930 sele atom LIG 1 N006 end
+scalar charge set -0.070430 sele atom LIG 1 C007 end
+scalar charge set 0.074030 sele atom LIG 1 H008 end
+scalar charge set 0.074030 sele atom LIG 1 H009 end
+scalar charge set 0.074030 sele atom LIG 1 H010 end
+scalar charge set 0.649870 sele atom LIG 1 C011 end
+scalar charge set 0.134070 sele atom LIG 1 C012 end
+scalar charge set -0.152840 sele atom LIG 1 C013 end
+scalar charge set 0.699660 sele atom LIG 1 C014 end
+scalar charge set -0.080840 sele atom LIG 1 C015 end
+scalar charge set 0.007460 sele atom LIG 1 C016 end
+scalar charge set 0.242260 sele atom LIG 1 C017 end
+scalar charge set 0.219960 sele atom LIG 1 C018 end
+scalar charge set -0.065540 sele atom LIG 1 C019 end
+scalar charge set 0.161000 sele atom LIG 1 H020 end
+scalar charge set -0.062540 sele atom LIG 1 C021 end
+scalar charge set 0.159000 sele atom LIG 1 H022 end
+scalar charge set -0.070540 sele atom LIG 1 C023 end
+scalar charge set 0.162000 sele atom LIG 1 H024 end
+scalar charge set -0.345340 sele atom LIG 1 N025 end
+scalar charge set -0.346340 sele atom LIG 1 N026 end
+scalar charge set -0.222500 sele atom LIG 1 F027 end
+scalar charge set -0.222500 sele atom LIG 1 F028 end
+scalar charge set -0.222500 sele atom LIG 1 F029 end
+scalar charge set -0.094040 sele atom LIG 1 C030 end
+scalar charge set 0.144500 sele atom LIG 1 H031 end
+scalar charge set -0.082040 sele atom LIG 1 C032 end
+scalar charge set 0.149500 sele atom LIG 1 H033 end
+scalar charge set -0.082040 sele atom LIG 1 C034 end
+scalar charge set 0.149500 sele atom LIG 1 H035 end
+scalar charge set -0.094040 sele atom LIG 1 C036 end
+scalar charge set 0.144500 sele atom LIG 1 H037 end
+scalar charge set -0.112540 sele atom LIG 1 C038 end
+scalar charge set 0.153000 sele atom LIG 1 H039 end
+scalar charge set -0.542330 sele atom LIG 1 N044 end
+scalar charge set -0.706530 sele atom LIG 1 N045 end
+scalar charge set 0.743370 sele atom LIG 1 C046 end
+scalar charge set -0.868030 sele atom LIG 1 N047 end
+scalar charge set 0.406800 sele atom LIG 1 H048 end
+scalar charge set 0.406800 sele atom LIG 1 H049 end
+
+RETURN
