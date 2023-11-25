@@ -70,10 +70,18 @@ PR3 directory:
 ```                          
 Charge renormalization was performed using [msld_py_prep](https://github.com/Vilseck-Lab/msld-py-prep).
 
-Charge_correction: CHARMM input files for book-ending correction, MBAR analysis scripts.
+Charge_correction:
+------------------
+1. HNE: CHARMM stream files containing original FF charges and renormalized charges (following charge renormalization).
+
+2. PR3: CHARMM stream files containing original FF charges and renormalized charges (following charge renormalization).
+
+CHARMM input files for book-ending correction, MBAR analysis scripts.
                    see also - [msld_py_prep](https://github.com/Vilseck-Lab/msld-py-prep/tree/main/bookending_corrections)
 
-run_files: CHARMM, ALF, and bash scripts for running MSLD simulations.
+run_files:
+----------
+CHARMM, ALF, and bash scripts for running MSLD simulations.
 
 > FF - Force Field
 > ALF - Adaptive Landscape Flattening
