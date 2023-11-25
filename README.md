@@ -71,7 +71,7 @@ PR3 directory:
 Charge renormalization was performed using [msld_py_prep](https://github.com/Vilseck-Lab/msld-py-prep).
 
 > FF - Force Field \
-> ALF - Adaptive Landscape Flattening
+> ALF - [Adaptive Landscape Flattening](https://github.com/RyanLeeHayes/ALF)
 
 Charge_correction:
 ------------------
